@@ -3,6 +3,7 @@ World Heart Day: India accounts for approximately 60 per cent of the world's hea
 Read more at:
 https://economictimes.indiatimes.com/magazines/panache/cardiovascular-diseases-killing-indians-the-most-pulmonary-embolism-rheumatic-condition-and-other-heart-disorders-people-should-know-about/articleshow/94509483.cms?utm_source=contentofinterest&utm_medium=text&utm_campaign=cppst
 
+<img width="600" alt="heart" src="https://github.com/SrujanEppalapally/Heart-Sound-Analysis-and-Classification/assets/62091112/f0263d84-fe45-418f-847b-2e97f24b65b4">
 
 
 
@@ -22,12 +23,22 @@ we propose an automated system using machine learning techniques. This system le
 Wave format of an audio looks like this:
 
 After converting the audio it looks something like this:
+![image](https://github.com/SrujanEppalapally/Heart-Sound-Analysis-and-Classification/assets/62091112/5d480f24-c952-463c-a3cb-22947996a16d)
 
 Above is an image format of an audio MFCCs but we use mathametical form to give it to the algorithm.
 
+![image](https://github.com/SrujanEppalapally/Heart-Sound-Analysis-and-Classification/assets/62091112/4185ba52-ff12-4b50-ae3f-1449ffef243d)
 
 Model:
+![image](https://github.com/SrujanEppalapally/Heart-Sound-Analysis-and-Classification/assets/62091112/79e8b55a-d553-466d-b673-b559d9977f19)
 
 
 THE RESULTS
+
+model train data score       :  70 %
+model test data score        :  73 %
+model validation data score  :  75 %
+
+CPU times: total: 328 ms
+Wall time: 761 ms
 
