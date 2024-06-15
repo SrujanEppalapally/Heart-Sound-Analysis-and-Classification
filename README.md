@@ -8,17 +8,21 @@ https://economictimes.indiatimes.com/magazines/panache/cardiovascular-diseases-k
 
 
 <h1>THE PROBLEM</h1>
-Heart disease continues to be one of the main causes of death and morbidity in India, making it a major global health problem. Heart disease may be diagnosed early and accurately, which can save lives and lower medical expenses. However, conventional diagnostic techniques are frequently costly and call for certain tools and knowledge. As a result, there is an urgent need for accessible, affordable, and effective methods of early heart disease identification and monitoring.
+<li>Heart disease continues to be one of the main causes of death and morbidity in India, making it a major global health problem.</li>
+<li>Heart disease may be diagnosed early and accurately, which can save lives and lower medical expenses. However, conventional diagnostic techniques are frequently costly and call for certain tools and knowledge.</li>
+<li>As a result, there is an urgent need for accessible, affordable, and effective methods of early heart disease identification and monitoring.</li>
 
 <h1>THE FEASIBLE SOLUTION</h1>
-To address the need for efficient and accessible heart disease diagnosis, we propose an automated system using machine learning techniques. This system leverages Mel-frequency cepstral coefficients (MFCCs) and Long Short-Term Memory (LSTM) networks to classify heart sounds into different categories, such as normal, murmur, and artifact. This approach minimizes memory usage and processing power while maintaining high accuracy.
+<li>To address the need for efficient and accessible heart disease diagnosis, we propose an automated system using machine learning techniques.</li>
+<li>This system leverages Mel-frequency cepstral coefficients (MFCCs) and Long Short-Term Memory (LSTM) networks to classify heart sounds into different categories, such as normal, murmur, and artifact. This approach minimizes memory usage and processing power while maintaining high accuracy.</li>
 
 <h1>THE DATA</h1>
-The data was gathered from two sources: (A) from the general public via the iStethoscope Pro iPhone app, and (B) from a clinic trial in hospitals using the digital stethoscope DigiScope.
-set_a.csv - Labels and metadata for heart beats collected from the general public via an iPhone app
-set_a_timing.csv - contains gold-standard timing information for the "normal" recordings from Set A.
-set_b.csv - Labels and metadata for heart beats collected from a clinical trial in hospitals using a digital stethoscope
-audio files - Varying lengths, between 1 second and 30 seconds. (some have been clipped to reduce excessive noise and provide the salient fragment of the sound).
+<b>The data was gathered from two sources:</b>
+<li>(A) from the general public via the iStethoscope Pro iPhone app, and (B) from a clinic trial in hospitals using the digital stethoscope DigiScope.</li>
+<li>set_a.csv - Labels and metadata for heart beats collected from the general public via an iPhone app</li>
+<li>set_a_timing.csv - contains gold-standard timing information for the "normal" recordings from Set A.</li>
+<li>set_b.csv - Labels and metadata for heart beats collected from a clinical trial in hospitals using a digital stethoscope</li>
+<li>audio files - Varying lengths, between 1 second and 30 seconds. (some have been clipped to reduce excessive noise and provide the salient fragment of the sound).</li>
 
 <b>Source</b>: https://istethoscope.peterjbentley.com/heartchallenge/index.html
 <h1>THE PROCESS</h1>
