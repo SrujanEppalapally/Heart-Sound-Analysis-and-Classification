@@ -20,6 +20,7 @@ set_a_timing.csv - contains gold-standard timing information for the "normal" re
 set_b.csv - Labels and metadata for heart beats collected from a clinical trial in hospitals using a digital stethoscope
 audio files - Varying lengths, between 1 second and 30 seconds. (some have been clipped to reduce excessive noise and provide the salient fragment of the sound).
 
+<b>Source</b>: https://istethoscope.peterjbentley.com/heartchallenge/index.html
 <h1>THE PROCESS</h1>
 we propose an automated system using machine learning techniques. This system leverages Mel-frequency cepstral coefficients (MFCCs) and Long Short-Term Memory (LSTM) networks to classify heart sounds into different categories, such as normal, murmur, and artifact. This approach minimizes memory usage and processing power while maintaining high accuracy.
 Wave format of an audio looks like this:
@@ -37,10 +38,11 @@ Model:
 
 <h1>THE RESULTS</h1>
 
-model train data score       :  70 %
-model test data score        :  73 %
-model validation data score  :  75 %
+model train data score       :  70 % \n
+model test data score        :  73 % \n
+model validation data score  :  75 % \n
 
 CPU times: total: 328 ms
+
 Wall time: 761 ms
 
