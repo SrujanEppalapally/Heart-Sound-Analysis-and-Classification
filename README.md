@@ -38,9 +38,9 @@ Model:
 
 <h1>THE RESULTS</h1>
 
-model train data score       :  70 % \n
-model test data score        :  73 % \n
-model validation data score  :  75 % \n
+<li>model train data score       :  70 % </li>
+<li>model test data score        :  73 % </li>
+<li>model validation data score  :  75 % </li>
 
 CPU times: total: 328 ms
 
